@@ -1,0 +1,121 @@
+body {
+    display: flex !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    font-family: Georgia, serif !important;
+}
+
+.left-section {
+
+    background: rgb(0, 98, 194) !important;
+    background: linear-gradient(180deg, rgba(0, 98, 194, 1) 0%, rgba(0, 212, 255, 1) 100%) !important;
+
+    width: 30% !important;
+    padding: 20px !important;
+
+    text-align: center !important;
+}
+
+.left-section h1 {
+    color: white !important;
+    font-size: 60px !important;
+}
+
+.left-section p {
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.create-line {
+    width: 300px; /* Увеличьте длину линии */
+    border-top: 1px solid #ffffff;
+    margin: 0 auto; /* Выровнять линию по центру */
+}
+
+.right-section {
+    background-color: #ffffff !important;
+    width: 70% !important;
+    padding: 20px !important;
+}
+
+.right-section h1 {
+    color: #0062c2 !important;
+    font-size: 60px !important;
+    margin-left: 50px !important;
+}
+
+.right-section p {
+    color: black !important;
+    font-size: 30px !important;
+    margin-left: 50px !important;
+}
+
+.button {
+    display: inline-block !important;
+    text-decoration: none !important;
+    background-color: #0062c2 !important;
+    color: #ffffff !important;
+    border-radius: 15px !important;
+    font-size: 16px !important;
+    padding: 10px 40px !important;
+    transition: all 1.0s ease !important;
+    margin-left: 50px !important;
+}
+
+.button:hover {
+    background-color: #00d4ff !important;
+}
+
+.button1 {
+    display: inline-block !important;
+    text-decoration: none !important;
+    background-color: #ffffff !important;
+    color: #0062c2 !important;
+    border-radius: 15px !important;
+    border: 1px solid #0062c2c0 !important;
+    font-size: 16px !important;
+    padding: 10px 40px !important;
+    transition: all 1.0s ease !important;
+    margin-left: 50px;
+}
+
+.button1:hover {
+    background-color: #00d4ff !important;
+}
+
+
+.error-link {
+    position: absolute !important;
+    bottom: 15px !important;
+    right: 20px !important;
+    background-color: #ff7c00 !important;
+    color: white !important;
+    padding: 10px !important;
+    text-decoration: none !important;
+}
+
+.error-link:hover {
+    transition: all 1.0s ease !important;
+    background-color: #d76200 !important;
+}
+
+
+/* template, kā pielāgot lapu dažādiem ismeriem:
+
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: auto;
+    }
+    .left-section {
+        width: 30%;
+    }
+    .right-section {
+        width: 70%;
+    }
+}
+
+ */
+
+{ }

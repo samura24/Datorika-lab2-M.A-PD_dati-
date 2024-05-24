@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+.left-section {
+
+    background: rgb(0, 98, 194);
+    background: linear-gradient(180deg, rgba(0, 98, 194, 1) 0%, rgba(0, 212, 255, 1) 100%);
+
+    width: 30%;
+    padding: 20px;
+
+    text-align: center;
+}
+
+.left-section h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.left-section p {
+    color: white;
+    font-size: 30px;
+}
+
+.create-line {
+    width: 300px; /* Увеличьте длину линии */
+    border-top: 1px solid #ffffff;
+    margin: 0 auto; /* Выровнять линию по центру */
+}
+
+.right-section {
+    background-color: #ffffff;
+    width: 70%;
+    padding: 20px;
+}
+
+.right-section h1 {
+    color: #0062c2;
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+.right-section p {
+    color: black;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #0062c2;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px 40px;
+    transition: all 1.0s ease;
+    margin-left: 50px;
+}
+
+.button:hover {
+    background-color: #00d4ff;
+}
+
+.button1 {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #0062c2;
+    border-radius: 15px;
+    border: 1px solid #0062c2c0;
+    font-size: 16px;
+    padding: 10px 40px;
+    transition: all 1.0s ease;
+    margin-left: 50px;
+}
+
+.button1:hover {
+    background-color: #00d4ff;
+}
+
+
+.error-link {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    background-color: #ff7c00;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.error-link:hover {
+    transition: all 1.0s ease;
+    background-color: #d76200;
+}
+
+.back {
+    margin-left: 50px;
+}
+
+
+.create-line1 {
+    width: 750px; /* Увеличьте длину линии */
+    border-top: 1px solid #b4b4b4;
+    margin-left: 50px;
+}
+
+form {
+    margin-left: 50px;
+}
+
+label {
+    color: #0062c2;
+    font-size: 20px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: 1px solid #0062c2c0;
+}
+
+p1 {
+    margin-left: 50px;
+    color: #b4b4b4;
+    text-decoration: none;
+}
+
+p1 a {
+    color: #b4b4b4;
+    text-decoration: none;
+    color: #0062c2;
+}
+
+
+/* template, kā pielāgot lapu dažādiem ismeriem:
+
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: auto;
+    }
+    .left-section {
+        width: 30%;
+    }
+    .right-section {
+        width: 70%;
+    }
+}
+
+ */

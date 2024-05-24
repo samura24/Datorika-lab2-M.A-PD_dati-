@@ -1,0 +1,99 @@
+body {
+    font-family: Georgia, serif !important;
+}
+
+.back {
+    position: absolute !important;
+    margin-left: 50px !important;
+    margin-top: 20px !important;
+}
+
+h1 {
+    font-size: 60px !important;
+    color: #0061c0 !important;
+    margin-left: 50px !important;
+}
+
+.subtitle {
+    font-size: 30px !important;
+    margin-left: 50px !important;
+    color: black !important;
+}
+
+.button {
+    display: inline-block !important;
+    text-decoration: none !important;
+    background-color: #0062c2 !important;
+    color: #ffffff !important;
+    border-radius: 15px !important;
+    font-size: 16px !important;
+    padding: 10px 40px !important;
+    transition: all 1.0s ease !important;
+    margin-left: 50px;
+}
+
+.button:hover {
+    background-color: #00d4ff !important;
+}
+
+.button1 {
+    display: inline-block !important;
+    text-decoration: none !important;
+    background-color: #ffffff !important;
+    color: #0062c2 !important;
+    border-radius: 15px !important;
+    border: 1px solid #0062c2c0 !important;
+    font-size: 16px !important;
+    padding: 10px 40px !important;
+    transition: all 1.0s ease !important;
+    margin-left: 50px;
+}
+
+.button1:hover {
+    background-color: #00d4ff !important;
+}
+
+
+table {
+    width: 80% !important;
+    border-collapse: collapse !important;
+    margin-left: 50px !important;
+}
+
+th, td {
+    padding: 20px !important;
+    text-align: center !important;
+    border-bottom: 1px solid #b4b4b4 !important;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2 !important;
+}
+
+.error-link {
+    position: absolute !important;
+    bottom: 15px !important;
+    right: 20px !important;
+    background-color: #ff7c00 !important;
+    color: white !important;
+    padding: 10px !important;
+    text-decoration: none !important;
+}
+
+.error-link:hover {
+    transition: all 1.0s ease !important;
+    background-color: #d76200 !important;
+}
+
+
+
+
+/* template, kā pielāgot lapu dažādiem ismeriem:
+
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+}
+
+ */
